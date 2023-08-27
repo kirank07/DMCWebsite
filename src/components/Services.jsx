@@ -30,11 +30,11 @@ const Services = () => {
                         <Row xs={{ gutterX: 5 }}>{servicesData.map((service) => (
                             <Col key={service.id} md={6} className="p-3">
                                 <Card>
-                                    <Card.Img variant="top" src={service.image} className='card-img-height' />
-                                        <Card.Body>
-                                            <Card.Title>{service.title}</Card.Title>
-                                            <Card.Text>{service.description}</Card.Text>
-                                        </Card.Body>
+                                  <Card.Img variant="top" src={service.image} className='card-img-height img-fluid' />
+                                  <Card.Body>
+                                    <Card.Title>{service.title}</Card.Title>
+                                    <Card.Text>{service.description}</Card.Text>
+                                  </Card.Body>
                                 </Card>
                             </Col>
                             ))}
