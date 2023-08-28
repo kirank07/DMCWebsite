@@ -22,7 +22,7 @@ export default function About() {
             <Container className="py-5">
                 <Row>
                     <Col xs={12} md={6}>
-                        <img src={aboutus} className='about-img-height' alt='' />
+                        <img src={aboutus} className='about-img-height img-fluid' alt='' />
                     </Col>
                     <Col xs={12} md={6}>
                         <div className='about-content'>
