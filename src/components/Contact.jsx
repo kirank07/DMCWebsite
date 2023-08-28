@@ -154,7 +154,7 @@ export default function Contact() {
                         </Form>
                     </Col>
                     <Col xs={12} md={6}>
-                        <img src={contactus} className='about-img-height' alt='' />
+                        <img src={contactus} className='about-img-height img-fluid' alt='' />
                     </Col>
                 </Row>
                 <div className='contact-text about-content'>
