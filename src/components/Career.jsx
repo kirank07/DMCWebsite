@@ -27,7 +27,7 @@ export default function Career() {
           </div>
           <Row>
             <Col xs={12} md={12}>
-              <img src={career} className='career-img-height' alt='' />
+              <img src={career} className='career-img-height img-fluid' alt='joinus' />
             </Col>
             <Col xs={12} md={12}>
                 <div className='about-content'>
